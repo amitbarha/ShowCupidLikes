@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ShowCupidLikes",
+  "version": "2.0.2",
+  "icons": {
+    "16": "icon16.jpg",
+    "48": "icon48.jpg",
+    "128": "icon128.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.okcupid.com/who-likes-you*"],
+      "js": ["Content.js"]
+    }
+  ]
+}
